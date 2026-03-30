@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "Hello $(whoami)!"
+echo "Hello $USER!"
