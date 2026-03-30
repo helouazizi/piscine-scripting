@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "Hello $USER!"
+username=$(grep -oP 'git/\K[^/]+' .git/config)
+
+
+echo "Hello $username!"
