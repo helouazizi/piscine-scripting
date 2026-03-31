@@ -17,4 +17,4 @@ chmod 644 "$DIR/8"
 chmod 644 "$DIR/9"
 chmod 755 "$DIR/A"
 
-ls -l --time-style="+%Y-%m-%d %H:%M" "$DIR" | sed '1d' | awk '{print $1, $6, $7, $8, $9}'
+ls -l --time-style="+%Y-%m-%d %H:%M" "$DIR" "$DIR"/* 2>/dev/null | sed '1d' | awk '{print $1, $6, $7, $8, $9}'
