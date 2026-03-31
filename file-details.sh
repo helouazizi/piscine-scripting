@@ -10,7 +10,7 @@ chmod 755 "$DIR/0" "$DIR/3" "$DIR/4" "$DIR/7" "$DIR/A"
 chmod 644 "$DIR/1" "$DIR/2" "$DIR/5" "$DIR/6" "$DIR/8" "$DIR/9"
 
 format_ls() {
-  awk '{printf "%s %s %s %s %s\n", $1, $6, $7, $8, $9}'
+  awk '{print $1, $6, $7, $8, $9}'
 }
 
 ls -l --time-style="+%Y-%m-%d %H:%M" "$DIR" | sed '1d' | format_ls
