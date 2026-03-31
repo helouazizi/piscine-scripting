@@ -19,7 +19,7 @@ touch "$DIR"/{1,2,4,5,6,7,8,9}
 # chmod 604 "$DIR/8"
 # chmod 402 "$DIR/9"
 # chmod 701 "$DIR/A"
-hmod 401 hard-perm/0
+chmod 401 hard-perm/0
 chmod 402 hard-perm/1
 chmod 604 hard-perm/2
 chmod 777 hard-perm/3
