@@ -4,7 +4,7 @@ DIR="hard-perm"
 
 mkdir -p "$DIR"
 mkdir -p "$DIR/0" "$DIR/3" "$DIR/A"
-touch "$DIR"/{1,2,4,5,6,7,8,9}
+touch "$DIR"/{1,2,4,5,6,7,8,9,11}
 
 # Apply correct permissions
 # bash hard-perm.sh
