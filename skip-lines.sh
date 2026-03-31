@@ -1,3 +1,3 @@
 #!/bin/bash
 
-ls -l | sed -n '1~2p'
+ls -l | sed '1d' | sed -n 'p;n'
