@@ -1,12 +1,13 @@
 #!/bin/bash
 
+# Create variables
 MY_MESSAGE="Hello World"
 MY_NUM=100
 MY_PI=3.142
 MY_ARR=(one two three four five)
 
-echo "$MY_MESSAGE"
-echo "$MY_NUM"
-echo "$MY_PI"
-
-echo "${MY_ARR[0]}, ${MY_ARR[1]}, ${MY_ARR[2]}, ${MY_ARR[3]}, ${MY_ARR[4]}"
+# Print variables
+printf "%s\n" "$MY_MESSAGE"
+printf "%s\n" "$MY_NUM"
+printf "%s\n" "$MY_PI"
+printf "%s\n" "${MY_ARR[*]}" | sed 's/ /, /g'
