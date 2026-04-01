@@ -8,4 +8,4 @@ MY_ARR=(one two three four five)
 printf "%s\n" "$MY_MESSAGE"
 printf "%s\n" "$MY_NUM"
 printf "%s\n" "$MY_PI"
-printf "%s\n" "${MY_ARR[*]}" | sed 's/ /, /g'
+printf "%s\n" "${MY_ARR[*]}" 
