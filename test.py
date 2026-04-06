@@ -1,3 +1,3 @@
-import concat_string
+import punishment
 
-print(concat_string.concat("ddd00", "xcxxcx"))
+print(punishment.do_punishment(' ', ' ', 4), end='')
