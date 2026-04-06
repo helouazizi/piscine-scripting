@@ -1,4 +1,0 @@
-The nohup command is used to run a command in the background, even if you close the terminal or log out of the system. When a command is run with nohup, it ignores the "SIGHUP" signal, which is sent to processes when the terminal they are running in is closed.
-The moon nohup command is used to run a command in the background, even if you close the terminal or log out of the system. When a command is run with nohup, it ignores the "SIGHUP" signal, which is sent to processes when the terminal they are running in is closed.
-This will run the "ls" command in the background, and ignore the "SIGHUP" signal. The "&" symbol puts the "ls" command in the background, allowing the terminal to continue accepting input while the "ls" command is running.
-
