@@ -1,7 +1,4 @@
-import shopping
+import clean_the_list
 
-list_with_apple = ['tomatoes', 'pastas', 'apple', 'salt']
-list_without_apple = ['tomatoes', 'pastas', 'salt']
-
-print(shopping.remember_the_apple(list_with_apple))
-print(shopping.remember_the_apple(list_without_apple))
+shopping_list = ['tomatoes', 'pastas', 'milk', 'salt']
+print(clean_the_list.clean_list(shopping_list))
