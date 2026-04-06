@@ -1,6 +1,6 @@
-from hello_python import say_hello_pyhton
+from hello_python import say_hello_python
 
 
 
-print(say_hello_pyhton())
+print(say_hello_python())
 
